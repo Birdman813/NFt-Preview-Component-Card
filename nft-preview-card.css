@@ -1,0 +1,79 @@
+body {
+    font-family: Arial;
+    background-color: #0D192C;
+   }
+   .card {
+    width: 350px;
+    border-radius: 15px;
+    background-color: rgb(3, 3, 34);
+    margin: 0;
+    padding: 24px;
+   }
+   .etherium-image {
+    width: 100%;
+    border-radius: 20px;
+   }
+   .equilibrium-heading {
+    font-size: 22px;
+    color: white;
+    cursor: pointer;
+   }
+   .equilibrium-heading:hover {
+    color: cyan;
+   }
+
+   .equilibrium-description {
+    font-size: 18px;
+    color: #8BACD9;
+   }
+   .etherium-rate {
+    color: cyan;
+    display: inline;
+    margin-left: 5px;
+   }
+   .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+   }
+   .time-remaining {
+    display: inline;
+    color: rgba(139, 172, 217, 1);
+    margin-left: 5px;
+    margin-right: 26px;
+   }
+   .etherium-container {
+    display: flex;
+    align-items: center;
+   }
+   .time-container {
+    display: flex;
+    align-items: center;
+   }
+   .container-line {
+    color: rgba(46, 64, 90, 1);
+   }
+   .creator {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-bottom: 32px;
+   }
+   .creator-image {
+    width: 33px;
+    height: 33px;
+    border: solid white;
+    border-radius: 50%;
+   }
+   .creator-description {
+    color: rgba(139, 172, 217, 1);
+    font-size: 16px;
+    margin-left: 20px;
+   }
+   .creator-name {
+    color: white;
+    cursor: pointer;
+   }
+   .creator-name:hover {
+    color: cyan;
+   }
